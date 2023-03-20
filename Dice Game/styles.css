@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(201, 253, 251);
+    font-family: 'Pinyon Script', cursive;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    text-decoration: underline;
+    color: rgb(0, 136, 255)
+}
+
+.win {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    color:rgb(255, 0, 0)
+}
+
+.dice {
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    bottom: 50px;
+    color:blueviolet
+}
+
+@media (max-width: 768px) {
+
+    img {
+        height:30vw;
+        width:30vw;
+    }
+    header{
+        font-size: 10vw;
+    }
+    .win{
+        font-size:6vw;
+    }
+}
+
+
+
+.footer {
+    margin-top:30px;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
