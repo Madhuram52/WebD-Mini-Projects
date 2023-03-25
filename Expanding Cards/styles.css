@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    /*horizontal alignment of all images */
+    width: 90vw;
+    /* 90 percent of the view port*/
+}
+
+.panel {
+    background-size: auto 100%;
+    /*image takes width of the panel and height is 100 percent */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    /* height of all images becomes 80%v of the view port */
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    flex: 0.5;
+    /*all panel width becomes even*/
+    margin: 10px;
+    position: relative;
+    transition: flex 0.5s ease-in;
+    /*when become active, it should not opne directly but with a transition */
+}
+
+
+h3 {
+    font-family:'Trebuchet MS'sans-serif;
+    font-size: 24px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+    /*to make h3 invisible in indeactive mode*/
+}
+
+.panel.active {
+    flex: 5;
+}
+
+.panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.2s;
+}
+
+.colour {
+    color:black;
+}
+
+
+@media (max-width:480px) {
+    .conatiner {
+        width: 100vw;
+    }
+
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5) {
+        display: none;
+    }
+
+}
