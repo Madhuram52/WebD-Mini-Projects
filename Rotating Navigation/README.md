@@ -1,1 +1,1 @@
-[Rotating Navigation Website Link](https://madhuram52.github.io/WebD-Mini-Projects/Rotating%Navigation/)
+[Rotating Navigation Website Link](https://madhuram52.github.io/WebD-Mini-Projects/Rotating%20Navigation/)
