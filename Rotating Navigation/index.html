@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rotating Navigation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fa fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fa fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="contents">
+            <h1>Solution Of A Problem By Looking At its Constraints</h1>
+            <small>eanacara</small>
+             <p>By looking at the constraints of a problem, we can often "guess" the solution.</p>
+            <p><strong>Common time complexities</strong> </p>
+            <p>Let <em>n</em> be the main variable in the problem.</p>
+            <ul>
+                <li>If <em>n</em> ≤ 12, the time complexity can be O(n!).</li>
+                <li>If <em>n</em> ≤ 25, the time complexity can be O(2<sup>n</sup>).</li>
+                <li>If <em>n</em> ≤ 100, the time complexity can be O(n<sup>4</sup>).</li>
+                <li>If <em>n</em> ≤ 500, the time complexity can be O(n<sup>3</sup>).</li>
+                <li>If <em>n</em> ≤ 10<sup>4</sup>, the time complexity can be O(n<sup>2</sup>).</li>
+                <li>If <em>n</em> ≤ 10<sup>6</sup>, the time complexity can be O(n log n).</li>
+                <li>If <em>n</em> ≤ 10<sup>8</sup>, the time complexity can be O(n).</li>
+                <li>If <em>n</em> &gt; 10<sup>8</sup>, the time complexity can be O(log n) or O(1).</li>
+            </ul>
+            <p><strong>Examples of each common time complexity</strong> </p>
+            <ul>
+                <li>O(n!) [Factorial time]: Permutations of 1 ... <em>n</em></li>
+                <li>O(2<sup>n</sup>) [Exponential time]: Exhaust all subsets of an array of size <em>n</em>
+                </li>
+                <li>O(n<sup>3</sup>) [Cubic time]: Exhaust all triangles with side length less than
+                    <em>n</em>
+                </li>
+                <li>O(n<sup>2</sup>) [Quadratic time]: Slow comparison-based sorting (eg. Bubble Sort,
+                    Insertion Sort, Selection Sort)</li>
+                <li>O(n log n) [Linearithmic time]: Fast comparison-based sorting (eg. Merge Sort)</li>
+                <li>O(n) [Linear time]: Linear Search (Finding maximum/minimum element in a 1D array),
+                    Counting Sort</li>
+                <li>O(log n) [Logarithmic time]: Binary Search, finding GCD (Greatest Common Divisor) using
+                    Euclidean Algorithm</li>
+                <li>O(1) [Constant time]: Calculation (eg. Solving linear equations in one unknown)</li>
+            </ul>
+            <p><strong>Explanations based on Codeforces problems</strong> </p>
+            <ol>
+                <li>
+                    <p><a href="//codeforces.com/problemset/problem/255/D">255D Mr. Bender and
+                            Square</a><br>Observe that 1 ≤   <em>n, c</em>  ≤ 10<sup>9</sup>. Referring to
+                        the information above, the program's time complexity should be either O(log n) or
+                        O(1). Since no O(1) solution exists, we conclude that binary search must be used.
+                    </p>
+                </li>
+                <li>
+                    <p><a href="//codeforces.com/problemset/problem/580/B">580B Kefa and Company</a><br>In
+                        this problem, 1 ≤  <em>n</em>  ≤ 10<sup>5</sup>, which suggests that the time
+                        complexity can be either O(n log n) or O(n). It is quite obvious that sorting is
+                        required. Therefore, O(n log n) is the correct solution of this problem.</p>
+                </li>
+                <li>
+                    <p><a href="//codeforces.com/problemset/problem/583/B">583B Robot's Task</a><br>Notice
+                        that <em>n</em> in very small (1≤ <em>n</em> ≤1000) in this problem. It means
+                        that a O(n<sup>2</sup>) solution can solve it. We simply need to simulate the
+                        robot's moves. </p>
+                </li>
+            </ol>
+            <p>I hope that this can help you figure out the solution of some problems quicker :) </p>
+            <p>Note: The above method may not always work in all problems. Some may require algorithms that
+                have complex time complexities, while in some problems like <a
+                    href="//codeforces.com/problemset/problem/591/B">591B Rebranding</a>, the range of
+                <em>n</em> does not match the time complexity of the "optimal" solution. (1≤
+                <em>n, m</em> ≤200000 suggests that the time complexity is O(n log n) or O(n) but the
+                time complexity of the solution is actually O(1).)
+            </p>
+
+        </div>
+    </div>
+    <nav>
+        <ul>
+        <li><i class="fa fa-home"></i>Home</li>
+        <li><i class="fa fa-user-circle-o"></i>About</li>
+        <li><i class="fa fa-envelope"></i>Contact</li>
+        </ul>
+    </nav>
+    <script src="script.js" charset="utf8"></script>
+</body>
+
+</html>
