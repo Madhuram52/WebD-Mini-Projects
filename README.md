@@ -6,3 +6,4 @@
 4) [Progress Steps Website Link](https://madhuram52.github.io/WebD-Mini-Projects/Progress%20Steps/)
 5) [Rotating Navigation Website Link](https://madhuram52.github.io/WebD-Mini-Projects/Rotating%20Navigation/)
 6) [Hidden Search Widget Website Link](https://madhuram52.github.io/WebD-Mini-Projects/Hidden%20Search%20Widget/)
+7) [Blurry Loading Website Link](https://madhuram52.github.io/WebD-Mini-Projects/Blurry%20Loading/)
