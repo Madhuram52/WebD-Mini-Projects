@@ -8,3 +8,4 @@
 6) [Hidden Search Widget Website Link](https://madhuram52.github.io/WebD-Mini-Projects/Hidden%20Search%20Widget/)
 7) [Blurry Loading Website Link](https://madhuram52.github.io/WebD-Mini-Projects/Blurry%20Loading/)
 8) [Scroll Animation Website Link](https://madhuram52.github.io/WebD-Mini-Projects/Scroll%20Animation/)
+9) [Dad Jokes Website Link](https://madhuram52.github.io/WebD-Mini-Projects/Dad%20Jokes/)
