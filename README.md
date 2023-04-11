@@ -9,3 +9,4 @@
 7) [Blurry Loading Website Link](https://madhuram52.github.io/WebD-Mini-Projects/Blurry%20Loading/)
 8) [Scroll Animation Website Link](https://madhuram52.github.io/WebD-Mini-Projects/Scroll%20Animation/)
 9) [Dad Jokes Website Link](https://madhuram52.github.io/WebD-Mini-Projects/Dad%20Jokes/)
+10)[Random Choice Picker Website Link](https://madhuram52.github.io/WebD-Mini-Projects/Random%20Choice%20Picker/)
